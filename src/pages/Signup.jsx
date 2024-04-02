@@ -18,7 +18,7 @@ const Signup = ({ handleToken }) => {
     try {
       setErrorMessage("");
       const response = await axios.post(
-        `${import.meta.env.VITE_API_URL}user/signup`,
+        `https://site--vinted-backend--47xhmxvzybsz.code.run/user/signup`,
         // "https://lereacteur-vinted-api.herokuapp.com/user/signup",
         {
           username,

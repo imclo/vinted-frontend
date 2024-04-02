@@ -14,7 +14,7 @@ const Offer = ({ token }) => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `${import.meta.env.VITE_API_URL}offer/${id}`
+          `https://site--vinted-backend--47xhmxvzybsz.code.run/offer/${id}`
           // `https://lereacteur-vinted-api.herokuapp.com/offer/${id}`
         );
         // console.log(response.data);

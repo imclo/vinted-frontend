@@ -21,9 +21,7 @@ const Home = ({ fetchRange, search, sortPrice }) => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `${
-            import.meta.env.VITE_API_URL
-          }offers?page=${page}&limit=${limit}&priceMin=${
+          `https://site--vinted-backend--47xhmxvzybsz.code.run/offers?page=${page}&limit=${limit}&priceMin=${
             fetchRange[0]
           }&priceMax=${fetchRange[1]}&sort=${
             sortPrice ? "price-desc" : "price-asc"

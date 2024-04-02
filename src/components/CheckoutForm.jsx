@@ -38,7 +38,7 @@ const CheckoutForm = ({ productName, totalPrice }) => {
 
       // Demande au backend de créer l'intention de paiement, il nous renvoie le clientSecret
       const response = await axios.post(
-        `${import.meta.env.VITE_API_URL}payment`,
+        `https://site--vinted-backend--47xhmxvzybsz.code.run/payment`,
         {
           amount: totalPrice,
           title: productName,

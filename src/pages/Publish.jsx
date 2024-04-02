@@ -31,7 +31,7 @@ const Publish = ({ token }) => {
       formData.append("picture", picture);
       const response = await axios.post(
         // "https://lereacteur-vinted-api.herokuapp.com/offer/publish",
-        `${import.meta.env.VITE_API_URL}offer/publish`,
+        `https://site--vinted-backend--47xhmxvzybsz.code.run/offer/publish`,
         formData,
         {
           headers: {
