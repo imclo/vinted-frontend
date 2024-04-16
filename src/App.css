@@ -794,12 +794,31 @@ span.pagination__current-page,
   .publish-container {
     width: 100%;
   }
+  .header-container {
+    width: 100%;
+    padding: 10px;
+  }
+  .publish-container h2 {
+    padding-left: 10px;
+  }
+  .file-selection {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .text-section {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .form-button {
+    margin-right: 20px;
+  }
 }
 
 @media (max-width: 1285px) {
   .header-container {
     /* background-color: #00c06d; */
     width: 100%;
+    padding: 10px;
   }
   .swap-price-range {
     display: none;
@@ -810,6 +829,9 @@ span.pagination__current-page,
   }
   .offer-container {
     width: 100%;
+  }
+  .hero-container {
+    margin-left: 30px;
   }
 }
 
@@ -848,5 +870,11 @@ span.pagination__current-page,
 @media (max-width: 802px) {
   .search-input {
     width: 150px;
+  }
+  .header-logo {
+    padding-right: 10px;
+  }
+  .hero-ready {
+    width: 340px;
   }
 }
