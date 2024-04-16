@@ -45,8 +45,8 @@ body {
 
 .icon-search {
   position: absolute;
-  left: 7px;
-  top: 12px;
+  left: 10px;
+  top: 10px;
   color: #bbbbbb;
 }
 
@@ -137,6 +137,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   gap: 15px;
   padding: 0 6px 16px;
 }
@@ -785,4 +786,51 @@ span.pagination__current-page,
 
 .card-info {
   margin-top: 20px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1285px) {
+  .header-container {
+    /* background-color: #00c06d; */
+    width: 100%;
+  }
+  .swap-price-range {
+    display: none;
+  }
+  .card-wrapper {
+    /* background-color: lightgoldenrodyellow; */
+    width: 100%;
+  }
+}
+
+@media (max-width: 1111px) {
+  .sell {
+    display: none;
+  }
+}
+
+@media (max-width: 985px) {
+  .header-container {
+    /* background-color: pink; */
+    width: 100%;
+  }
+  .swap-price-range {
+    display: none;
+  }
+  .search-input {
+    width: 400px;
+  }
+  .sell {
+    display: none;
+  }
+  .header-button-log-sign {
+    display: flex;
+  }
+}
+
+@media (max-width: 802px) {
+  .search-input {
+    width: 150px;
+  }
 }
