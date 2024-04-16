@@ -790,6 +790,12 @@ span.pagination__current-page,
 
 /* RESPONSIVE */
 
+@media (max-width: 1300px) {
+  .publish-container {
+    width: 100%;
+  }
+}
+
 @media (max-width: 1285px) {
   .header-container {
     /* background-color: #00c06d; */
@@ -800,6 +806,9 @@ span.pagination__current-page,
   }
   .card-wrapper {
     /* background-color: lightgoldenrodyellow; */
+    width: 100%;
+  }
+  .offer-container {
     width: 100%;
   }
 }
@@ -824,8 +833,15 @@ span.pagination__current-page,
   .sell {
     display: none;
   }
-  .header-button-log-sign {
+  .offer-container {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .offer-pic {
+    height: 500px;
+    width: 400px;
   }
 }
 
